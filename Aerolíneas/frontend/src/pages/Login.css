@@ -1,0 +1,84 @@
+.auth-container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #F3F2EC;
+}
+
+.auth-card {
+  width: min(420px, 90vw);
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: grid;
+  gap: 1rem;
+}
+
+.auth-card h2 {
+  text-align: center;
+  color: #E62727;
+  margin-bottom: 1rem;
+}
+
+.login-input label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.login-input input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #DCDCDC;
+  border-radius: 8px;
+  outline: none;
+  background: #F9F9F9;
+}
+
+.login-input input:focus {
+  border-color: #1E93AB;
+  box-shadow: 0 0 0 3px rgba(30, 147, 171, 0.2);
+}
+
+.api-error {
+  color: #E62727;
+  background: rgba(230, 39, 39, 0.1);
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+button[type="submit"] {
+  background: #E62727;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background: #c51f1f;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.muted {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.row-between a {
+  color: #1E93AB;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.row-between a:hover {
+  text-decoration: underline;
+}
